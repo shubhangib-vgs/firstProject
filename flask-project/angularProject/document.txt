@@ -1,0 +1,19 @@
+1) Mysql
+-> Database: image_compression
+-> table: users
+	id = primary
+
+2) Treminal
+-> To active virtual enviornment = venv\scripts\activate
+
+3) mysql.py file
+-> flask
+-> CORS = custome responces
+->
+
+3) Bootstrap & jquery
+-> npm i bootstrap jquery
+
+4) proxy-conf.json
+-> package.json(change start)
+-> angular.json(style, scripts)

@@ -1,0 +1,55 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" ><h1>Return</h1></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+  <a class="nav-link" href="#">SUPPORT</a>
+  </li>
+  <li class="nav-item active">
+  <a class="nav-link" href="#">NOTIFICATION</a>
+  </li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  </div>
+  </nav>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 mt-5 mx-auto">
+  <form (submit)="countinue()">
+  <h1 class="h3 mb-3 font-weight-normal"><b>Customer Information</b></h1>
+  <div class="form-group">
+  <input type="text" name="title" placeholder=" Title(CTO, new biz manager, etc.)" class="input12">
+  </div>
+  <div class="form-group">
+  <input type="text" name="function" placeholder=" Function(Technology, business development, etc.)" class="input12">
+  </div>
+  <div class="form-group">
+      <textarea rows = "8" name = "issue" maxlength="250" class="textarea1"> Issue(250 characters)
+       </textarea>
+  </div>
+  <div class="form-group" class="row">
+    <div class="col-sm">
+        <input type="text" name="issue_id" placeholder="Issue ID" class="table1"></div>
+    <div class="col-sm">
+        <input type="text" name="timestamp" placeholder="Timestamp" class="table1"></div>
+      </div><br/>
+   <div class="form-group" class="row">
+          <div class="col-sm"><button type="submit" style="width:100%" class="btn btn-primary">Save</button></div>
+          <div class="col-sm"> <button type="submit" style="width:100%" class="btn btn-primary">Save/Add New</button></div>
+  </div>
+  <br>
+  <div>
+      <button type="submit" class="btn btn-outline-primary" style="float: right;">Continue</button>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
